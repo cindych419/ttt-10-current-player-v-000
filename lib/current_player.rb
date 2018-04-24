@@ -5,4 +5,3 @@ def turn_count(board)
   puts "#{counter}"
   puts "#{inside}"
   counter +=1
-
