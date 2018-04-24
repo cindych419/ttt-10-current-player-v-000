@@ -1,7 +1,9 @@
 def turn_count(board)
   counter = 0
-  board = ["X", "O", "X", "O", "X", "O", "X", "O", "X"]
   board.each do |inside|
-  puts "#{counter}"
-  puts "#{inside}"
-  counter +=1
+    if inside == "X" || inside == "O"
+      counter +=1
+    end
+  end 
+  counter
+end
